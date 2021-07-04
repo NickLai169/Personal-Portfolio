@@ -532,7 +532,7 @@ progress {
   list-style: none;
 }
 
-.list-inline {
+.list-inline li{
   padding-left: 0;
   list-style: none;
 }
@@ -11024,6 +11024,11 @@ html {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
+}
+.portfolio-item-title {
+  text-align: center;
+  margin: auto; 
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .portfolio .portfolio-item {
   cursor: pointer;
